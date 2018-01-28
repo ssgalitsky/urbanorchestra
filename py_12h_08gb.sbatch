@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #BATCH --job-name=py_12h_8gb
+#SBATCH --gres=gpu:1
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=1
@@ -9,6 +10,9 @@
 #SBATCH --output=slurm_py_12h_8gb_%j.out
 
 module purge
+module purge
+module load cuda/8.0.44
+module load cudnn/8.0v6.0
 
 jupyter_dir=/home/$USER/jupyter-notebook
 mkdir -p $jupyter_dir
