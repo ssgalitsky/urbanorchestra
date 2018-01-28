@@ -21,7 +21,10 @@ Making music from urban environments!
 * `conda env create -f urbanorchestra.yml`
 
 ## Define path to datasets in Conda environment
-*
+* ...
+* ...
 
 ## Install MedleyDB package
 * `git clone https://github.com/marl/medleydb.git`
+* `cd medleydb`
+* `python setup.py`
