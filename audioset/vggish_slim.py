@@ -31,7 +31,7 @@ https://github.com/tensorflow/models/blob/master/research/slim/nets/vgg.py
 """
 
 import tensorflow as tf
-import .vggish_params as params
+from .vggish_params import params
 
 slim = tf.contrib.slim
 
