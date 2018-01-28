@@ -16,15 +16,18 @@ Making music from urban environments!
 * `cd ./audioset`
 * `curl -O https://storage.googleapis.com/audioset/vggish_model.ckpt`
 * `curl -O https://storage.googleapis.com/audioset/vggish_pca_params.npz`
+* `cd ..`
 
-## Setup conda environment
+## Setup and activate conda environment
 * `conda env create -f urbanorchestra.yml`
+* `source activate urbanorchestra`
 
 ## Define path to datasets in Conda environment
-* ...
-* ...
+* `export URBAN_SED_PATH = "/path/to/local/MedleyDB"`
+* `export MEDLEYDB_PATH = "/path/to/local/MedleyDB"`
 
 ## Install MedleyDB package
 * `git clone https://github.com/marl/medleydb.git`
 * `cd medleydb`
 * `python setup.py`
+* `cd ..`
