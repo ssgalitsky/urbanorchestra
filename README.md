@@ -7,3 +7,6 @@ Making music from urban environments!
 * `cd ./audioset`
 * `curl -O https://storage.googleapis.com/audioset/vggish_model.ckpt`
 * `curl -O https://storage.googleapis.com/audioset/vggish_pca_params.npz`
+
+## Setup Conda environment
+* `conda env create -f urbanorchestra.yml`
