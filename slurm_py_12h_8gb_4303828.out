@@ -1,0 +1,326 @@
+
+Jupyter server is running on: c40-06
+Job starts at: Sun Jan 28 11:58:09 EST 2018
+
+Step 1 :
+
+If you are working in NYU campus, please open an iTerm window, run command
+
+ssh -L 7583:localhost:7583 yw3004@prince.hpc.nyu.edu
+
+If you are working off campus, you should already have ssh tunneling setup through HPC bastion host,
+that you can directly login to prince with command
+
+ssh yw3004@prince
+
+Please open an iTerm window, run command
+
+ssh -L 7583:localhost:7583 yw3004@prince
+
+Step 2:
+
+Keep the iTerm windows in the previouse step open. Now open browser, find the line with
+
+The Jupyter Notebook is running at:
+
+the URL is something: http://localhost:/?token=XXXXXXXX
+
+you should be able to connect to jupyter notebook running remotly on prince compute node with above url
+
+[I 11:58:13.912 NotebookApp] Writing notebook server cookie secret to /state/partition1/job-4303828/jupyter/notebook_cookie_secret
+[I 11:58:15.474 NotebookApp] Serving notebooks from local directory: /home/yw3004
+[I 11:58:15.474 NotebookApp] 0 active kernels
+[I 11:58:15.474 NotebookApp] The Jupyter Notebook is running at:
+[I 11:58:15.474 NotebookApp] http://localhost:7583/?token=38a38979d2b851cdb6835a518fcb684cfa6d40ea6b11eda0
+[I 11:58:15.474 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:58:15.474 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:7583/?token=38a38979d2b851cdb6835a518fcb684cfa6d40ea6b11eda0
+[I 12:03:26.407 NotebookApp] 302 GET /?token=38a38979d2b851cdb6835a518fcb684cfa6d40ea6b11eda0 (::1) 0.78ms
+[I 12:03:38.827 NotebookApp] Creating new directory in /urbanorchestra
+[I 12:03:48.494 NotebookApp] Creating new directory in /urbanorchestra
+[I 12:04:08.051 NotebookApp] Creating new notebook in 
+[I 12:04:10.796 NotebookApp] Kernel started: 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 12:04:12.623 NotebookApp] Adapting to protocol v5.1 for kernel 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 12:06:13.846 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:10:12.756 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:28:19.294 NotebookApp] Creating new notebook in 
+[I 12:28:20.509 NotebookApp] Kernel started: 125b47e6-7021-42be-b75e-0b16cad4ee46
+[I 12:28:21.616 NotebookApp] Adapting to protocol v5.1 for kernel 125b47e6-7021-42be-b75e-0b16cad4ee46
+[I 12:28:25.767 NotebookApp] Starting buffering for 125b47e6-7021-42be-b75e-0b16cad4ee46:1834B738BB2E4B72B0C28937FE60472A
+[I 12:30:10.684 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:32:10.697 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:34:10.717 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:36:10.697 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:38:10.711 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:53:14.836 NotebookApp] Starting buffering for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:260DCBA772FD436A88CE961C1A4A916F
+[I 12:53:15.266 NotebookApp] Kernel restarted: 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 12:53:16.499 NotebookApp] Adapting to protocol v5.1 for kernel 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 12:53:16.500 NotebookApp] Restoring connection for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:260DCBA772FD436A88CE961C1A4A916F
+[I 12:53:16.500 NotebookApp] Replaying 6 buffered messages
+[I 12:54:10.745 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:56:10.748 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:56:20.309 NotebookApp] Starting buffering for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:260DCBA772FD436A88CE961C1A4A916F
+[I 12:56:20.722 NotebookApp] Kernel restarted: 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 12:56:21.946 NotebookApp] Adapting to protocol v5.1 for kernel 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 12:56:21.947 NotebookApp] Restoring connection for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:260DCBA772FD436A88CE961C1A4A916F
+[I 12:56:21.947 NotebookApp] Replaying 6 buffered messages
+ARCHIVE=/archive/yw3004
+BASH=/usr/bin/sh
+BASHOPTS=cmdhist:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_ENV=/opt/ohpc/admin/lmod/lmod/init/bash
+BASH_EXECUTION_STRING=set
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="4" [1]="2" [2]="46" [3]="1" [4]="release" [5]="x86_64-redhat-linux-gnu")
+BASH_VERSION='4.2.46(1)-release'
+BEEGFS=/beegfs/yw3004
+CLICOLOR=1
+CLUSTER=PRINCE
+CUDA_VISIBLE_DEVICES=NoDevFiles
+DIRSTACK=()
+ENVIRONMENT=BATCH
+EUID=2851081
+GIT_PAGER=cat
+GPU_DEVICE_ORDINAL=NoDevFiles
+GROUPS=()
+HISTCONTROL=ignoredups
+HISTSIZE=1000
+HOME=/home/yw3004
+HOSTNAME=c40-06
+HOSTTYPE=x86_64
+IFS=' 	
+'
+JPY_PARENT_PID=42164
+LANG=en_US.UTF-8
+LESSOPEN='||/usr/bin/lesspipe.sh %s'
+LMOD_CMD=/opt/ohpc/admin/lmod/lmod/libexec/lmod
+LMOD_COLORIZE=no
+LMOD_DEFAULT_MODULEPATH=/share/apps/modulefiles
+LMOD_DIR=/opt/ohpc/admin/lmod/lmod/libexec
+LMOD_DISABLE_SAME_NAME_AUTOSWAP=yes
+LMOD_EXACT_MATCH=yes
+LMOD_FULL_SETTARG_SUPPORT=no
+LMOD_PKG=/opt/ohpc/admin/lmod/lmod
+LMOD_PREPEND_BLOCK=normal
+LMOD_SETTARG_CMD=:
+LMOD_VERSION=6.0.24
+LOGNAME=yw3004
+LS_COLORS='rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:'
+MACHTYPE=x86_64-redhat-linux-gnu
+MAIL=/var/spool/mail/yw3004
+MANPATH=:
+MLM_LICENSE_FILE=27000@its428-wap-v.cfs.its.nyu.edu,27000@its429-wap-v.cfs.its.nyu.edu,27000@its430-wap-v.cfs.its.nyu.edu
+MODULEPATH=/share/apps/modulefiles
+MODULESHOME=/opt/ohpc/admin/lmod/lmod
+MPLBACKEND=module://ipykernel.pylab.backend_inline
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PAGER=cat
+PATH=/home/yw3004/miniconda3/bin:/home/yw3004/miniconda3/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/share/apps/local/bin:/share/apps/centos/7/bin:/opt/slurm/bin:/opt/dell/srvadmin/bin:/home/yw3004/.local/bin:/home/yw3004/bin:/home/yw3004/miniconda3/lib/python3.6/site-packages/numpy/.libs
+POSIXLY_CORRECT=y
+PPID=3981
+PS4='+ '
+PWD=/home/yw3004
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+QT_GRAPHICSSYSTEM_CHECKED=1
+SBATCH_IGNORE_PBS=1
+SCRATCH=/scratch/yw3004
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:hashall:interactive-comments:posix
+SHLVL=3
+SLURMD_NODENAME=c40-06
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+SLURM_CLUSTER_NAME=prince
+SLURM_CPUS_ON_NODE=1
+SLURM_CPUS_PER_TASK=1
+SLURM_GTIDS=0
+SLURM_JOBID=4303828
+SLURM_JOBTMP=/state/partition1/job-4303828
+SLURM_JOB_ACCOUNT=users
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_JOB_GID=1002851081
+SLURM_JOB_ID=4303828
+SLURM_JOB_NAME=py_12h_08gb.sbatch
+SLURM_JOB_NODELIST=c40-06
+SLURM_JOB_NUM_NODES=1
+SLURM_JOB_PARTITION=c39_41
+SLURM_JOB_QOS=cpu48
+SLURM_JOB_TMP=/state/partition1/job-4303828
+SLURM_JOB_TMPDIR=/state/partition1/job-4303828
+SLURM_JOB_UID=2851081
+SLURM_JOB_USER=yw3004
+SLURM_LOCALID=0
+SLURM_MEM_PER_NODE=8192
+SLURM_NNODES=1
+SLURM_NODEID=0
+SLURM_NODELIST=c40-06
+SLURM_NODE_ALIASES='(null)'
+SLURM_NPROCS=1
+SLURM_NTASKS=1
+SLURM_NTASKS_PER_NODE=1
+SLURM_PRIO_PROCESS=0
+SLURM_PROCID=0
+SLURM_SUBMIT_DIR=/home/yw3004/urbanorchestra
+SLURM_SUBMIT_HOST=log-0
+SLURM_TASKS_PER_NODE=1
+SLURM_TASK_PID=42140
+SLURM_TOPOLOGY_ADDR=s25.s21.c40-06
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.node
+SSH_CLIENT='192.168.128.106 58388 22'
+SSH_CONNECTION='192.168.128.106 58388 128.122.215.12 22'
+SSH_TTY=/dev/pts/4
+TERM=xterm-color
+TMPDIR=/state/partition1/job-4303828
+UID=2851081
+USER=yw3004
+XDG_RUNTIME_DIR=/state/partition1/job-4303828
+XDG_SESSION_ID=194100
+_=/home/yw3004/miniconda3/bin/jupyter
+_ARCHIVE_=/archive/y/yw3004
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL3NoYXJlL2FwcHMvbW9kdWxlZmlsZXMiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvc2hhcmUvYXBwcy9tb2R1bGVmaWxlcyIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvc2hhcmUvYXBwcy9tb2R1bGVmaWxlcyIsWyJ2ZXJzaW9uIl09Mix9
+_ModuleTable_Sz_=1
+SLURM_NODELIST=c40-06
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+MANPATH=:
+SLURM_JOB_NAME=py_12h_08gb.sbatch
+_ARCHIVE_=/archive/y/yw3004
+XDG_SESSION_ID=194100
+HOSTNAME=c40-06
+SLURM_NTASKS_PER_NODE=1
+SLURM_TOPOLOGY_ADDR=s25.s21.c40-06
+SLURMD_NODENAME=c40-06
+SLURM_JOB_TMP=/state/partition1/job-4303828
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+SBATCH_IGNORE_PBS=1
+TERM=xterm-color
+SHELL=/bin/bash
+CLICOLOR=1
+HISTSIZE=1000
+SLURM_JOB_QOS=cpu48
+LMOD_DEFAULT_MODULEPATH=/share/apps/modulefiles
+SSH_CLIENT=192.168.128.106 58388 22
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.node
+TMPDIR=/state/partition1/job-4303828
+LMOD_PKG=/opt/ohpc/admin/lmod/lmod
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_VERSION=6.0.24
+SSH_TTY=/dev/pts/4
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=yw3004
+SLURM_NNODES=1
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SLURM_JOBTMP=/state/partition1/job-4303828
+SLURM_JOBID=4303828
+JPY_PARENT_PID=42164
+SLURM_NTASKS=1
+SLURM_JOB_TMPDIR=/state/partition1/job-4303828
+PAGER=cat
+LMOD_PREPEND_BLOCK=normal
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL3NoYXJlL2FwcHMvbW9kdWxlZmlsZXMiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvc2hhcmUvYXBwcy9tb2R1bGVmaWxlcyIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvc2hhcmUvYXBwcy9tb2R1bGVmaWxlcyIsWyJ2ZXJzaW9uIl09Mix9
+MAIL=/var/spool/mail/yw3004
+PATH=/home/yw3004/miniconda3/bin:/home/yw3004/miniconda3/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/share/apps/local/bin:/share/apps/centos/7/bin:/opt/slurm/bin:/opt/dell/srvadmin/bin:/home/yw3004/.local/bin:/home/yw3004/bin:/home/yw3004/miniconda3/lib/python3.6/site-packages/numpy/.libs
+SLURM_TASKS_PER_NODE=1
+_=/usr/bin/env
+SLURM_CPUS_PER_TASK=1
+SLURM_JOB_ID=4303828
+LMOD_SETTARG_CMD=:
+MLM_LICENSE_FILE=27000@its428-wap-v.cfs.its.nyu.edu,27000@its429-wap-v.cfs.its.nyu.edu,27000@its430-wap-v.cfs.its.nyu.edu
+PWD=/home/yw3004
+SLURM_JOB_USER=yw3004
+CUDA_VISIBLE_DEVICES=NoDevFiles
+MPLBACKEND=module://ipykernel.pylab.backend_inline
+LANG=en_US.UTF-8
+MODULEPATH=/share/apps/modulefiles
+_ModuleTable_Sz_=1
+SLURM_JOB_UID=2851081
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/home/yw3004/urbanorchestra
+LMOD_CMD=/opt/ohpc/admin/lmod/lmod/libexec/lmod
+SLURM_NPROCS=1
+SLURM_TASK_PID=42140
+SLURM_CPUS_ON_NODE=1
+HISTCONTROL=ignoredups
+ENVIRONMENT=BATCH
+SLURM_PROCID=0
+SLURM_JOB_NODELIST=c40-06
+SHLVL=3
+HOME=/home/yw3004
+BEEGFS=/beegfs/yw3004
+SLURM_LOCALID=0
+LMOD_DISABLE_SAME_NAME_AUTOSWAP=yes
+SLURM_CLUSTER_NAME=prince
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_JOB_GID=1002851081
+SLURM_SUBMIT_HOST=log-0
+SLURM_GTIDS=0
+BASH_ENV=/opt/ohpc/admin/lmod/lmod/init/bash
+SLURM_JOB_PARTITION=c39_41
+LOGNAME=yw3004
+QTLIB=/usr/lib64/qt-3.3/lib
+SSH_CONNECTION=192.168.128.106 58388 128.122.215.12 22
+SLURM_JOB_ACCOUNT=users
+GPU_DEVICE_ORDINAL=NoDevFiles
+CLUSTER=PRINCE
+MODULESHOME=/opt/ohpc/admin/lmod/lmod
+SLURM_JOB_NUM_NODES=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_FULL_SETTARG_SUPPORT=no
+ARCHIVE=/archive/yw3004
+XDG_RUNTIME_DIR=/state/partition1/job-4303828
+GIT_PAGER=cat
+LMOD_DIR=/opt/ohpc/admin/lmod/lmod/libexec
+LMOD_EXACT_MATCH=yes
+SCRATCH=/scratch/yw3004
+LMOD_COLORIZE=no
+SLURM_MEM_PER_NODE=8192
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");
+ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+[I 12:58:10.753 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:58:33.444 NotebookApp] Starting buffering for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:260DCBA772FD436A88CE961C1A4A916F
+[I 13:02:35.663 NotebookApp] 302 GET /?token=38a38979d2b851cdb6835a518fcb684cfa6d40ea6b11eda0 (::1) 0.59ms
+[I 13:02:56.121 NotebookApp] Adapting to protocol v5.1 for kernel 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 13:04:04.181 NotebookApp] Starting buffering for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:C6CC3F0CF01C43DD9E342143F9584C67
+[I 13:04:04.593 NotebookApp] Kernel restarted: 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 13:04:05.699 NotebookApp] Adapting to protocol v5.1 for kernel 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 13:04:05.700 NotebookApp] Restoring connection for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:C6CC3F0CF01C43DD9E342143F9584C67
+[I 13:04:05.700 NotebookApp] Replaying 6 buffered messages
+[I 13:04:55.878 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:06:55.872 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:08:55.903 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:10:55.883 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:12:55.888 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:14:46.888 NotebookApp] Starting buffering for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:C6CC3F0CF01C43DD9E342143F9584C67
+[I 13:14:47.302 NotebookApp] Kernel restarted: 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 13:14:48.615 NotebookApp] Adapting to protocol v5.1 for kernel 5243b49d-9967-4f68-afe6-3ffe7a9da2af
+[I 13:14:48.616 NotebookApp] Restoring connection for 5243b49d-9967-4f68-afe6-3ffe7a9da2af:C6CC3F0CF01C43DD9E342143F9584C67
+[I 13:14:48.616 NotebookApp] Replaying 6 buffered messages
+[I 13:14:55.891 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:15:19.487 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:16:55.908 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:18:55.905 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:20:55.908 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:22:55.909 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:24:55.977 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:26:55.979 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:28:55.923 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:30:55.928 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:32:56.017 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:34:58.759 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:37:06.601 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:37:49.146 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:39:36.811 NotebookApp] Saving file at /Untitled.ipynb
