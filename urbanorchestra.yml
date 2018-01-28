@@ -105,4 +105,3 @@ dependencies:
   - webencodings==0.5.1
   - werkzeug==0.12.2
   - widgetsnbextension==3.0.2
-prefix: /home/hhw230/miniconda3/envs/sonyc
